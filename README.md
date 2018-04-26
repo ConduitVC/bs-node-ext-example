@@ -8,13 +8,20 @@ npm run build
 
 ## Usage
 
-Build the project then run
+Start the server
+
+```sh
+yarn build
+node src/Demo.bs.js &
+```
+
+Use curl to verify it's doing something.
 
 ```sh
 curl localhost:60023
 ```
 
-To see the output from the server.
+You should see `Hello World`
 
 # Watch
 
